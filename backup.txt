@@ -1,0 +1,9 @@
+//rsync command is used for copying and synchronizing files and directories remotely as well as locally.
+//rsync options source destination is the rsync command
+
+# rsync -zvh backup.tar /tmp/backups/
+
+//to automate or schedule this use the crontab files
+//open the file and do this
+
+# 00 24 * * * user /tmp/backups/
